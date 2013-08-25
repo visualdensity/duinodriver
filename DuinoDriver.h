@@ -41,7 +41,6 @@ class DuinoDriver
         void right();
 
     private:
-        int enablePin;
         HDriver driverConf[2];
 
         void setupSide( Sides side, HDriver d );
